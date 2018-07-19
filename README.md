@@ -1,14 +1,48 @@
-This is an api to GET/DELETE/POST movies in the memory
-This is using SWAGGER [swagger-node-runner](https://github.com/theganyo/swagger-node-runner) to serve a Swagger/OpenAPI 2.0
-API using Node.js, Express, and Babel.
-The Validation and Authorisation is done using the swagger (refer to fittings folder under swagger)
-This project using es6/es7 coding style and babel transpile it to node8
-This project is using securityHandlers provided by Swagger (Basic ****)
+# NodeJs APIs (movie)
+by [aran dekar](https://www.linkedin.com/in/arandeh/)
+This repo contains nodeJs restfull apis (movies apis - GET/DELETE/POST). this uses [swagger](https://github.com/theganyo/swagger-node-runner), custom validation and security handlers implemented by swagger (Basic auth)
+You can find es6/es7 coding style.
 
+## Documentation
+OpenApi 2.0 (swagger). - validation and security
+## Transpile
+Babel transpiles es6/es7 code (e.g import, await, async, object destruction and etc) into node v8.
+## Quality Coding
+Eslint is integrated.
+## Testing
+Jest is used, code coverage is out of the box using Jest.
+## Code Coverage Report
+Jest provide code coverage, after running the npm script, to see the coverage on html please refer to coverage/icov-report/index.html.
+## Postman
+A collection of postman requests are provided in the root.
 
-* TO RUN - run "npm start"
-* TO TEST - There are unit tests implemented for it (run "npm test")
-* TO LINT - eslint is integrated run "npm run lint"
-* TO DEBUG - Open it in vsCode and select launch from debug list and press f5
-* TO DEBUG TESTS - Open it in vscode and select Mocha* from debug list and press f5
-* TO TEST BY POSTMAN - Load the collection on the root into your postman
+### To Run
+1. git clone the project.
+2. run "npm install". 
+3. run "npm start".
+4. the server should be hosted on port 3000.
+
+### To Test
+1. run "npm test" - it lints the project and then runs the tests using jest.
+
+### To Lint
+1. run "npm run lint" - eslint integrated.
+
+### To Debug
+1. open vsCode.
+2. select launch from debug list.
+3. press f5.
+
+### To Debug Unit Tests
+1. open vsCode.
+2. select JEST* from debug list.
+3. press f5.
+
+### To Test By Postman
+1. Movies.postman_collection.json should be imported to postman.
+2. run requests.
+
+### To Check Code Covergae
+1. run "npm run coverage'.
+2. you see a report in command line.
+3. to see the coverage on html please refer to coverage/icov-report/index.html.
