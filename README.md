@@ -1,7 +1,7 @@
 # NodeJs APIs (movie)
-by [aran dekar](https://www.linkedin.com/in/arandeh/)
-This repo contains nodeJs restfull apis (movies apis - GET/DELETE/POST). this uses [swagger](https://github.com/theganyo/swagger-node-runner), custom validation and security handlers implemented by swagger (Basic auth)
-You can find es6/es7 coding style.
+This repo is added by [aran dekar](https://www.linkedin.com/in/arandeh/)
+It contains nodeJs restfull apis (movies apis - GET/DELETE/POST) and uses [swagger](https://github.com/theganyo/swagger-node-runner) you can find custom validation and security handlers implemented by swagger in the fittings folder.
+You can find es6/es7 coding style in this project.
 
 ## Documentation
 OpenApi 2.0 (swagger). - validation and security
@@ -12,9 +12,11 @@ Eslint is integrated.
 ## Testing
 Jest is used, code coverage is out of the box using Jest.
 ## Code Coverage Report
-Jest provide code coverage, after running the npm script, to see the coverage on html please refer to coverage/icov-report/index.html.
+Jest provide code coverage, after running the "npm run coverage", to see the coverage on html please refer to coverage/icov-report/index.html.
 ## Postman
 A collection of postman requests are provided in the root.
+
+************
 
 ### To Run
 1. git clone the project.
