@@ -24,7 +24,12 @@
 			"name": "http://localhost:3000/api/v1/movie",
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic c3Bhcms6dGVzdGluZzE="
+					}
+				],
 				"body": {},
 				"url": "http://localhost:3000/api/v1/movie"
 			},
@@ -34,7 +39,12 @@
 			"name": "http://localhost:3000/api/v1/movie/54f0be26ae8aba260b8f6db8",
 			"request": {
 				"method": "DELETE",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic c3Bhcms6dGVzdGluZzE="
+					}
+				],
 				"body": {},
 				"url": "http://localhost:3000/api/v1/movie/54f0be26ae8aba260b8f6db8"
 			},
@@ -48,6 +58,10 @@
 					{
 						"key": "Content-Type",
 						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic c3Bhcms6dGVzdGluZzE="
 					}
 				],
 				"body": {
